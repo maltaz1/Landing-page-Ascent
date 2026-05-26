@@ -71,7 +71,7 @@ function Navbar() {
       <div className={`transition-all duration-500 ${scrolled ? "bg-[#09090b]/90 backdrop-blur-xl border-b border-white/[0.05]" : ""}`}>
         <div className="max-w-6xl mx-auto px-5 h-14 flex items-center justify-between">
           <a href="#" className="flex items-center gap-2.5 group">
-            <img src="./src/image/Logo.png" alt="Ascend Logo" className="w-16 h-16" />
+            <img src="/logo.png" alt="Ascend Logo" className="w-16 h-16" />
           </a>
 
           <nav className="hidden md:flex items-center gap-7">
@@ -955,7 +955,7 @@ function Footer() {
     <footer className="border-t border-white/[0.05] py-10 px-6">
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-5">
         <div className="flex items-center gap-2.5">
-          <img src="./src/image/Logo.png" alt="Ascend Logo" className="w-16 h-16" />
+          <img src="/logo.png" alt="Ascend Logo" className="w-16 h-16" />
           <span className="text-zinc-700 text-[12px] ml-2">© 2025</span>
         </div>
         <div className="flex gap-6">
