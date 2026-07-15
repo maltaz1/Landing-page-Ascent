@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, useScroll, useTransform, useInView, AnimatePresence } from "framer-motion";
+import { Analytics } from '@vercel/analytics/react';
 
 // ─── Font: Geist (all weights, via Google Fonts) ────────────────────────────
 // Palette: near-black bg, violet #6D28D9 accent, white, zinc grays
@@ -987,6 +988,7 @@ export default function App() {
         <FinalCTA/>
       </main>
       <Footer/>
+      <Analytics />
     </div>
   );
 }
